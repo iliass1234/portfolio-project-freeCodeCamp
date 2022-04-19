@@ -65,24 +65,29 @@ a {
 }
 #skills-section{
     background-color: rgb(81, 0, 211);
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: center;
+    align-items:center;
     padding: 50px 20px;
 }
 #skills-section > #wrapper{
-    height: 200px;
+    height: auto;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     max-width: 1000px;
 }
 .one-skill{
+    color: rgb(235, 235, 235);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 100px;
+    justify-content: end;
+    width: 70px;
     height: 100%;
     overflow: hidden;
-    background-color: rgb(231, 231, 231);
+    font-size: 10px;
+    font-weight: 100;
 }
 .one-skill > img {
     width: inherit;
