@@ -1,0 +1,2 @@
+# portfolio-project-freeCodeCamp
+this project is a typical random portfolio website for a freeCodeCamp final project, to be honest there is no much fancy stuff in this project but i had to do it in order for completing the certificate, that's it and for clearification this site doesn't represent my official portfolio instead this just an obligation and opportunity for practicing some css and html;
