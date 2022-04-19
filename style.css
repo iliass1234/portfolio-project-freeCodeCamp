@@ -9,7 +9,7 @@ body{
 #header{
     height: 40px;
     width: 100%;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(233, 233, 233);
     position: fixed;
     top: 0%;
     left: 0%;
@@ -39,6 +39,23 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#welcome-section > p {
+    max-width: 340px;
+    text-align: center;
+}
+#skills-section{
+    background-color: rgb(81, 0, 211);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+#skills-section > #wrapper{
+    border: 1px solid black;
+    background-color: rgb(240, 240, 220);
+    width: 200px;
+    height: auto;
 }
 #projects {
     display:flex;
