@@ -8,7 +8,7 @@ function clickLink(element){
             break;
         case "Chess.":
             window.open("https://iliass1234.github.io/chess/");
-            break;
+            break;  
         case "type-fast.":
             window.open("https://iliass1234.github.io/type-fast/");
             break;
