@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 #welcome-section{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -109,13 +109,12 @@ a {
     flex-wrap: wrap;
     gap: 15px;
 }
-.one-project{
+.project-tile{
     height: 100px;
     max-width: 150px;
     flex: 1 1 150px;
     padding: 30px;
     border: 1px solid rgb(209, 209, 209);
-    background-color: rgb(250, 250, 250);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -123,18 +122,33 @@ a {
     justify-content: center;
     transition: 150ms;
     position: relative;
+    overflow: hidden;
 }
-.one-project:hover{
+.project-tile:hover{
     border-color: rgb(89, 33, 141);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.352);
+    background-color: rgba(0, 0, 0, 0.235);
     cursor: pointer;
 }
-.one-project > .project-title{
+.project-tile > .project-title{
     text-align: center;
     width: 80%;
 }
-.one-project > a{
+.project-tile > a{
     position: absolute;
     bottom: 10%;
+    color: white;
+}
+.project-tile > a:hover{
+    color: rgb(181, 181, 181);
+}
+.project-tile > h2{
+    color: white;
+}
+.project-tile>img{
+    z-index: -1;
+    width:120%;
+    position: absolute;
 }
 @media(max-width: 500px){
     /* do somthing later */
