@@ -100,6 +100,9 @@ a {
     height: auto;
     gap: 10px;
 }
+#projects > h1{
+    margin-top: 60px;
+}
 #projects-wrapper{
     padding: 10px;
     max-width: 1200px;
@@ -126,8 +129,8 @@ a {
 }
 .project-tile:hover{
     border-color: rgb(89, 33, 141);
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.352);
-    background-color: rgba(0, 0, 0, 0.235);
+    box-shadow: 0px 10px 13px rgba(0, 0, 0, 0.537);
+    background-color: rgba(0, 0, 0, 0.585);
     cursor: pointer;
 }
 .project-tile > .project-title{
