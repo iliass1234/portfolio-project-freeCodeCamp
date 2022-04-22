@@ -50,15 +50,33 @@ a {
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#welcome-section > #wrapper{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
 }
 #welcome-section #text-container{
     display: flex;
     flex-direction: column;
     align-items: center;   
-    color: white; 
+    color: rgb(0, 0, 0); 
+}
+#welcome-section #img-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#img-div > img{
+    max-width: 700px;
+    min-width: 400px;
+
 }
 #welcome-section p {
     max-width: 340px;
@@ -151,11 +169,11 @@ a {
 }
 .project-tile>img{
     z-index: -1;
-    width:120%;
+    width: 120%;
     position: absolute;
 }
 #contact-section {
-    background-color: red;
+    background-color: rgb(41, 9, 78);
     display: flex;
     justify-content: center;
     align-items: center;
