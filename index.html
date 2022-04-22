@@ -13,7 +13,7 @@
     <header id="header">
         <nav id="navbar">
             <div>
-                <a href="#skills-section">Technecal Skills</a>
+                <a href="#skills-section">Skills</a>
             </div>
             <div>
                 <a href="#projects">Projects</a>
@@ -29,9 +29,9 @@
     <section id="welcome-section">
         <div id="wrapper">
             <div id="text-container">
-                <h1>Hello there, I'm a Front-End web developer!</h1>
+                <h1 style="font-weight: 500;">Hello there, I'm a Front-End web developer!</h1>
                 <div id="welcome-btns">
-                    <button>Contact me</button> <button>See projects</button>
+                    <a href="#contact-section"><button>Contact me</button></a> <a href="#projects"><button>See projects</button></a>
                 </div>
                 
             </div>
@@ -41,6 +41,7 @@
         </div>
     </section>
     <section id="skills-section">
+        <h2 style="font-weight: 300;margin-bottom: 0px; margin-top: 10px;">Technologies :</h2>
         <div id="wrapper">
             <div class="one-skill">
                 <img src="./assets/javascript-logo.png">
@@ -91,11 +92,21 @@
         </div>
     </section>
     <section id="contact-section">
+        <div id="info">
+            <div id="img-div">
+                <img style="width: 100px;" src="./assets/profile-photo.jpg">
+            </div>
+            <h1>About me:</h1>
+            <p style="text-align: center; line-height: 30px;">I'm ilias jabri and I'm a front-end developer located in Morocco.
+            i do like challenges and mind stimulating problems.
+            </p>
+        </div>
         <form action="somthing" method="post">
-            <input type="text" name="fname" placeholder="first name">
-            <input type="text" name="lname" placeholder="last name">
-            <input type="email" name="email" placeholder="email..">
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <h1 style="text-align: center;">Contact me to help you build your dream project : </h1>
+            <label for="fullname"></label>Full Name<input type="text" name="fullname" placeholder="full name">
+            <label for="email">Email</label><input type="email" name="email" placeholder="email..">
+            <label for="message">Message</label><textarea name="message" id="" cols="30" rows="10" placeholder="your message here.."></textarea>
+            <input type="submit" value="Send">
         </form>
     </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
