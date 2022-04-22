@@ -57,14 +57,15 @@ a {
 #welcome-section #text-container{
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;   
+    color: white; 
 }
 #welcome-section p {
     max-width: 340px;
     text-align: center;
 }
 #skills-section{
-    background-color: rgb(81, 0, 211);
+    background: linear-gradient(45deg, rgb(28, 3, 47),rgb(49, 0, 127));
     height: auto;
     display: flex;
     justify-content: center;
@@ -153,6 +154,27 @@ a {
     width:120%;
     position: absolute;
 }
+#contact-section {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-section > form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    min-width: 250px;
+}
+#contact-section > form > input{
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
 @media(max-width: 500px){
     /* do somthing later */
 }
