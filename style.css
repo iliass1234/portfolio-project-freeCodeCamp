@@ -5,12 +5,12 @@
     font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif
 }
 body{
-    padding-top: 40px;
+    padding-top: 35px;
     margin: 0;
 }
 #header{
-    z-index: 10;
-    height: 40px;
+    z-index: 1;
+    height:35px;
     width: 100%;
     background: linear-gradient(45deg, rgb(0, 221, 255),rgb(49, 0, 127));
     position: fixed;
@@ -19,7 +19,6 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 30px;
 }
 #header > nav{
     position: relative;
@@ -27,11 +26,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 35px;
     margin-right: 10px;
 }
 #header * {
     color: rgb(255, 255, 255);
+    font-size: 15px;
     font-weight: 300;
 }
 #header > nav > div {
