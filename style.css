@@ -1,5 +1,7 @@
 :root{
     scroll-behavior: smooth;
+    font-size: 20px;
+    font-weight: 300;
     font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif
 }
 body{
@@ -9,7 +11,7 @@ body{
 #header{
     height: 40px;
     width: 100%;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(64, 0, 96);
     position: fixed;
     top: 0%;
     left: 0%;
@@ -27,8 +29,8 @@ body{
     gap: 40px;
 }
 #header * {
-    color: rgb(83, 83, 83);
-    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
 }
 #header > nav > div {
     position: inline-block;
@@ -46,24 +48,37 @@ a {
     text-decoration: none;
 }
 #welcome-section{
-    background-color: white;
+    background: linear-gradient(rgb(102, 9, 117), rgb(40, 6, 69));
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 #welcome-section > #wrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: auto;
-    height: auto;
+    height: 700px;
+    max-width: 900px;
+    gap: 30px;
 }
 #welcome-section #text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;   
-    color: rgb(0, 0, 0); 
+    font-size: 1.2em;
+    color: white; 
+}
+#welcome-btns > button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(3, 60, 103), rgb(0, 195, 255));
+    border: none;
+}
+#welcome-btns > button:hover{
+    cursor:pointer;
 }
 #welcome-section #img-div{
     width: 100%;
@@ -80,7 +95,6 @@ a {
 }
 #welcome-section p {
     max-width: 340px;
-    text-align: center;
 }
 #skills-section{
     background: linear-gradient(45deg, rgb(28, 3, 47),rgb(49, 0, 127));
