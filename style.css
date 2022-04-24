@@ -100,7 +100,6 @@ a {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: red;
 }
 #img-div > img{
     position: relative;
@@ -232,6 +231,7 @@ a {
     border-radius: 5px;
     padding-left: 10px;
     font-size: 1em;
+    background-color: rgb(17, 0, 41);
 }
 form > input:focus, textarea:focus{
     transition: 250ms;
@@ -243,6 +243,8 @@ textarea{
     padding: 20px;
     font-size: 1em;
     border-radius: 5px;
+    background-color: rgb(17, 0, 41);
+    color: white;
 }
 input[type="submit"]{
     width: 200px;
