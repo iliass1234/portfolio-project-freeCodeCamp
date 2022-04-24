@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
+    overflow: hidden;
 }
 #header > nav{
     position: relative;
@@ -28,6 +29,7 @@ body{
     justify-content: center;
     gap: 35px;
     margin-right: 10px;
+    overflow: hidden;
 }
 #header * {
     color: rgb(255, 255, 255);
@@ -55,8 +57,10 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 #welcome-section > #wrapper{
+    margin: 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,15 +81,20 @@ a {
     font-size: 1.2em;
     color: white; 
     flex: 1 1 100px;
+    border-radius: 5px;
 }
 .btn{
-    transform: scale(1.1);
-    margin-right: 20px;
+    display: inline-block;
+    margin: 5px;
+    width: 150px;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     background-color: transparent;
     border: 2px solid white;
+}
+#welcome-btns{
+    display: flex;
 }
 .btn:hover{
     background-color: white;
@@ -280,7 +289,7 @@ textarea{
 #info > #imgDiv > img{
     display: inline-block;
 }
-@media(max-width: 500px){
+@media(max-width: 600px){
     #contact-section{
         flex-wrap: wrap;
     }
@@ -288,5 +297,12 @@ textarea{
         border-left: none;
         border-top: 1px solid white;
         padding-left: 0px;
+    }
+    #text-container{
+        padding-top: 80px;
+    }
+    #header{
+        height: 50px;
+        justify-content: center;
     }
 }
